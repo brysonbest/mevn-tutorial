@@ -16,7 +16,7 @@ const routes = [
     name: "add-tutorial",
     component: () => import("./components/AddTutorial"),
   },
-  {
+  /* {
     path: "/tags",
     alias: "/tags",
     name: "tags",
@@ -31,7 +31,7 @@ const routes = [
     path: "/tags/add",
     name: "add-tag",
     component: () => import("./components/AddTag"),
-  },
+  }, */
 ];
 
 const router = createRouter({
