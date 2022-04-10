@@ -3,18 +3,18 @@ const routes = [
   {
     path: "/",
     alias: "/tutorials",
-    name: "tutorials",
-    component: () => import("./components/TutorialsList"),
+    name: "tutorials-list",
+    component: () => import("./components/TutorialsList.vue"),
   },
   {
     path: "/tutorials/:id",
     name: "tutorial-details",
-    component: () => import("./components/Tutorial"),
+    component: () => import("./components/Tutorial.vue"),
   },
   {
     path: "/add",
-    name: "add-tutorial",
-    component: () => import("./components/AddTutorial"),
+    name: "add",
+    component: () => import("./components/AddTutorial.vue"),
   },
   /* {
     path: "/tags",
